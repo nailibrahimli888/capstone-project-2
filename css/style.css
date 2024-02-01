@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #1e3266;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 80px;
+  color: #dcf2f1;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: #dcf2f1;
+}
+
+h3 {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  color: #7fc7d9;
+}
+
+p {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  color: #7fc7d9;
+}
+
+hr {
+  width: 5rem;
+  margin: 6rem auto;
+  border-style: dotted none none;
+  color: #dcf2f1;
+  border-width: 5px;
+}
+
+.top-container {
+  padding: 5rem 0;
+}
+
+.top-container > img {
+  width: 100%;
+}
+
+.top-span {
+  text-decoration: underline;
+}
+
+.profile > img {
+  border-radius: 50%;
+  width: 10%;
+}
+
+.profile > h2 {
+  padding: 2rem 0;
+}
+
+.skill {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.skill img {
+  width: 30%;
+}
+
+.code {
+  float: left;
+  padding-right: 5rem;
+}
+
+.controller {
+  float: right;
+  padding-left: 5rem;
+}
+
+.skill-row p {
+  line-height: 2;
+}
+
+.code-text {
+  text-align: left;
+}
+
+.controller-text {
+  text-align: right;
+}
+
+.row-1 {
+  padding: 50px 0 100px 0;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  margin: 3rem 0;
+  background-color: #7fc7d9;
+  color: #dcf2f1;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #365486;
+}
+
+.bottom-container {
+  background-color: #7fc7d9;
+  color: #dcf2f1;
+  padding: 1rem 0;
+  font-family: "Merriweather", serif;
+}
+
+.bottom-container > a {
+  color: #dcf2f1;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.bottom-container > a:hover {
+  color: #365486;
+}
+
+footer {
+  font-size: 12px;
+  padding-top: 2rem;
+}
+
+@media (max-width: 680px) {
+  .code {
+    float: none;
+    padding: 0;
+  }
+
+  .controller {
+    float: none;
+    padding: 0;
+  }
+
+  .code-text {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .controller-text {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .profile > img {
+    width: 20%;
+  }
+
+  .skill img {
+    width: 40%;
+  }
+}
